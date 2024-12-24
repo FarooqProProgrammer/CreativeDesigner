@@ -29,7 +29,7 @@ const App = () => {
       <Hero />
       <Portfolio />
       <About />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Contact />
       <Footer />
     </BrowserRouter>

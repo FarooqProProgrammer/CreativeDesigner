@@ -47,8 +47,8 @@ const Testimonial = () => {
 
     return (
         <Container className='py-8'>
-            <h3 className='playfair-display  text-white text-center mx-auto display-1'>Testimonials</h3>
-            <TestimonialDescription className='text-white text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</TestimonialDescription>
+            <h3 data-aos="fade-up" data-aos-duration="1000" className='playfair-display  text-white text-center mx-auto display-1'>Testimonials</h3>
+            <TestimonialDescription data-aos="fade-down" data-aos-duration="500" className='text-white text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</TestimonialDescription>
             <Slider {...settings} className='mt-6'>
                 {
                     [...Array(5)].map((item, index) => {

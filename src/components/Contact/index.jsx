@@ -44,7 +44,7 @@ const FormTextArea = styled.textarea`
 const Contact = () => {
     return (
         <Container className='py-5'>
-            <h3 className='playfair-display mb-5 text-white text-center mx-auto display-1'>Contact</h3>
+            <h3 data-aos="fade-up" data-aos-duration="1000" className='playfair-display mb-5 text-white text-center mx-auto display-1'>Contact</h3>
 
             <div className='mt-3'>
                 <FormLabel className='d-block'>Name</FormLabel>
